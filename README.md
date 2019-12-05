@@ -1,4 +1,4 @@
-vad-plotter code ( https://github.com/tsupinie/vad-plotter ) courtesy of https://github.com/tsupinie 
+<a href="https://github.com/tsupinie/vad-plotter" target="_blank">vad-plotter code</a> courtesy of https://github.com/tsupinie 
 
 What makes this different is that 5 minute observations from METAR sites at or by the radar are included in the hodograph. As noted in the documentation below, a dashed red line will be drawn on the hodograph from the lowest point in the VWP to the surface wind to indicate the approximate wind profile in that layer.
 
