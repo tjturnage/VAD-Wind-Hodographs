@@ -1,3 +1,11 @@
+vad-plotter code ( https://github.com/tsupinie/vad-plotter ) courtesy of https://github.com/tsupinie 
+
+What makes this different is that 5 minute observations from METAR sites at or by the radar are included in the hodograph. As noted in the documentation below, a dashed red line will be drawn on the hodograph from the lowest point in the VWP to the surface wind to indicate the approximate wind profile in that layer.
+
+Images available at https://turnageweather.us/vwps/vwp.html
+Past images available in the Image Archive.
+
+
 # vad-plotter
 Parser and plotter for NEXRAD VAD retrievals. 
 
