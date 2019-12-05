@@ -1,9 +1,9 @@
-<a href="https://github.com/tsupinie/vad-plotter" target="_blank">vad-plotter code</a> courtesy of https://github.com/tsupinie 
+<a href="https://github.com/tsupinie/vad-plotter">vad-plotter code </a> courtesy of <a href="https://github.com/tsupinie">Tim Supine</a> 
 
-What makes this different is that 5 minute observations from METAR sites at or by the radar are included in the hodograph. As noted in the documentation below, a dashed red line will be drawn on the hodograph from the lowest point in the VWP to the surface wind to indicate the approximate wind profile in that layer.
+This effort uses Tim's code to combine radar data with 5 minute observations from the nearest METAR sites (obtained via mesowest). This adds information to the hodograph below ~1 km AGL. As noted in Tim's documentation below, a dashed red line gets drawn on the hodograph from the lowest point in the VWP to the surface wind to indicate the approximate wind profile in that layer.
 
 Images available at https://turnageweather.us/vwps/vwp.html
-Past images available in the Image Archive.
+Past images available in the Image Archive - https://turnageweather.us/images/VWP/archive/
 
 
 # vad-plotter
