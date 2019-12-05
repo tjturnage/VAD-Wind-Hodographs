@@ -3,8 +3,10 @@
 This effort uses Tim's code to combine radar data with 5 minute observations from the nearest METAR sites (obtained via mesowest). This adds information to the hodograph below ~1 km AGL. As noted in Tim's documentation below, a dashed red line gets drawn on the hodograph from the lowest point in the VWP to the surface wind to indicate the approximate wind profile in that layer.
 
 Images available at https://turnageweather.us/vwps/vwp.html
+
 Past images available in the Image Archive - https://turnageweather.us/images/VWP/archive/
 
+Tim's documentation starts below...
 
 # vad-plotter
 Parser and plotter for NEXRAD VAD retrievals. 
