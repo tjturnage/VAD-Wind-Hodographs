@@ -34,6 +34,9 @@ except:
     vwp_script_path = os.path.join(scripts_dir,'vad-plotter-master','vad.py')
     py_call = 'python '
 
+
+from api_tokens import mesowest_API_TOKEN as API_TOKEN
+
 os.makedirs(archive_dir, exist_ok = True)
 os.makedirs(display_dir, exist_ok = True)
 
@@ -48,7 +51,6 @@ class Mesowest:
     def __init__(self, radar, stid, elements, units, archive=False):
 
         API_ROOT = "https://api.synopticdata.com/v2/"
-        API_TOKEN = "292d36a692d74badb6ca011f4413ae1b"
         nowTime = datetime.utcnow()
         time_str = datetime.strftime(nowTime,'%Y%m%d%H%M')
         self.obtime_str = time_str
